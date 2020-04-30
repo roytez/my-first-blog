@@ -52,6 +52,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'mysite.urls'
 
+# Tutaj w opcjach templates ustawiony jest parametr APP_DIR =True
+# ktory oznacza, ze w aplikacjach ma szukac katalogu 'static' i stamtad pobierac pliki
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
